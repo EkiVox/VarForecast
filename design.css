@@ -1,0 +1,48 @@
+/* parametre de la page */
+body, html{
+  background-color:whitesmoke;
+  padding: 0%;
+  margin: 0%;
+
+}
+/*parametre la bandeau noir*/
+.header {
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 70px;
+  line-height:70px;
+  background-color: #333333;
+  position: fixed;
+  top:0;
+  z-index: 999;
+}
+/*parametre du nom sur le bandeau noir*/
+.header-logo {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  margin-left: 20px
+}
+/*parametre des boutons sur le bandeau noir*/
+.header .header-menu{
+  float: right;
+  margin-right: 30px;
+}
+/*parametre de couleur texte sur le bandeau noir*/
+.header .header-menu a {
+  color: #ffffff;
+  margin-right: 20px;
+}
+.header .header-menu a:hover {
+  color: cadetblue;
+}
+.header-logo:hover {
+  color:#ffffff;
+}
+.carte{
+  text-align: center;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+
+}
